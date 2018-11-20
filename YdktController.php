@@ -168,6 +168,7 @@
             'lessonid'=>$lessonid,
             'questionid'=>$questionid,
             'iscorrect'=>$iscorrect,
+		'answer'=>$answer,
             'points'=>$points,
             'addtime'=>time()
         );
