@@ -1,1 +1,0 @@
-ALTER TABLE  `w_yd_qlog` ADD  `answer` VARCHAR( 255 ) NOT NULL COMMENT  '问题答案' AFTER  `questionid`
