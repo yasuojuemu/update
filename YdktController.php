@@ -58,6 +58,7 @@
         if(empty($uid) || empty($classid) || empty($grade) || empty($income) || empty($remains) || empty($love) || empty($exp) || empty($name) || empty($profile_pic)){
             $this->returnJson(['code'=>0, 'message'=>'请求参数不足，请检查']);
         }
+	if($grade>=5) $this->returnJson(['code'=>2, 'message'=>'您已完成预算课程']);
         $data=array(
             'uid'=>$uid,
             'classid'=>$classid,
